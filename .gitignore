@@ -1,4 +1,5 @@
 # Ignorar los datos más pesados
+.gitignore
 samples/reads/*
 samples/fastqc/*
 samples/multiqc/*
