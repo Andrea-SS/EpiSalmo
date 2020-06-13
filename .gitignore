@@ -1,0 +1,8 @@
+# Ignorar los datos más pesados
+samples/reads/*
+samples/fastqc/*
+samples/multiqc/*
+samples/names.txt
+samples/good.txt
+samples/prinseq/*
+results/*
