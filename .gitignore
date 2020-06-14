@@ -6,3 +6,4 @@ samples/names.txt
 samples/good.txt
 samples/prinseq/*
 results/*
+quast-5.0.2

@@ -11,6 +11,6 @@ do
     second=$(sed -n "$i"p samples/good.txt)    
     name=$(sed -n "$i"p samples/good.txt | cut -d'/' -f3 | sed "s/_good_out_R2*//g" ) 
     echo $name
-    spades.py -1 $first -2 $second -o results/SPADES
+    spades.py -1 $first -2 $second -o results/SPADES/"$name"
     i=$(($i+1))
 done;
