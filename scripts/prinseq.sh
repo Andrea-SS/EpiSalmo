@@ -2,8 +2,8 @@
 
 # Parámetros modificables
 
-min_len="90" # Filtrado por longitud mínima
-qual_mean="20" # Calidad media
+min_len="120" # Filtrado por longitud mínima
+qual_mean="25" # Calidad media
 threads="4" # Número de núcleos disponibles
 
 # Código script
