@@ -1,8 +1,8 @@
 #! /bin/bash
 
-Lista_seq=$(ls results/PROTEINORTHO/orthologs-groups)
-mkdir -p results/MAFFT
+Lista_seq=$(ls results/PROTEINORTHO_90/orthologs-groups)
+mkdir -p results/MAFFT/90
 for i in $Lista_seq
 do
-   mafft --auto results/MAFFT/$i > results/MAFFT/"$i"_ali
+   mafft --auto --adjustdirection results/PROTEINORTHO_90/orthologs-groups/$i > results/MAFFT/90/"$i"_ali
 done

@@ -8,3 +8,6 @@ samples/prinseq/*
 results/*
 quast-5.0.2
 results
+"fallo ref.txt"
+.Rhistory
+ex.tre
