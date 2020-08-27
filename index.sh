@@ -17,7 +17,11 @@ proteinortho.sh
 #NJ_Dice_presencia_genes.R
 proteinortho_grab_proteins.sh
 mafft.sh
+clean_mafft.sh
 trimal.sh
 amas_sumary.sh
 #amas_concat.sh
 #iqtree.sh
+
+# Distance Matrix
+# python3 distance_matrix.py inputfile outputfile

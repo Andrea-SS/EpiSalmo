@@ -12,6 +12,15 @@ Se parte de los resultados fastq de la secuenciacion en samples/reads.
     
 3.- Se ejecuta el index.sh que conlleva:
 
-    3.1 KRAKEN -> ejecuta kraken.sh y kraken-report.sh para conocer el contenido de la muestra.
+    3.1 KRAKEN -> ejecuta kraken.sh y kraken-report.sh para conocer el contenido de la muestra.    
     
     3.2 ARIBA -> 
+
+    3.3 SPADES -> 
+
+    3.4 QUAST ->
+
+    3.5 PROKKA ->
+  
+
+4.- Aparte se utilizaron otras herramientas como el acceso a la [base de datos card](https://card.mcmaster.ca/home) y el [scrapping de datos](https://github.com/IvanPenyaHuguet/scrapping-card-resistance-database). Y el uso de [seq2mlst](https://github.com/lmc297/seq2mlst)
