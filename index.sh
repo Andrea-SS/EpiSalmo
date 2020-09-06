@@ -16,10 +16,10 @@ proteinortho.sh
 #Generar la matriz de presencia-ausencia
 #NJ_Dice_presencia_genes.R
 proteinortho_grab_proteins.sh
-mafft.sh
-clean_mafft.sh
-trimal.sh
-amas_sumary.sh
+#mafft.sh
+#clean_mafft.sh
+#trimal.sh
+#amas_sumary.sh
 #amas_concat.sh
 #iqtree.sh
 
