@@ -2,11 +2,11 @@ Se parte de los resultados fastq de la secuenciacion en samples/reads.
 
 1.- Se ejecuta fastQC-multiQC.sh en scripts
 
-    1.1 Este comando realiza fastqc y multiqc sobre las muestras extraídas
+    1.1 Este comando ejecuta fastqc y multiqc sobre las muestras extraídas.
     
 2.- Se ejecuta prinseq.sh en scripts
 
-    2.1 Este comando ejecuta el filtrado con printseq para eliminar lecturas no adecuadas
+    2.1 Este comando ejecuta el filtrado con printseq para eliminar lecturas inadecuadas.
     
     2.2 Ajustar con los parámetros adecuados para el análisis
     
@@ -34,6 +34,6 @@ Se parte de los resultados fastq de la secuenciacion en samples/reads.
     
  5.- Ejecutando clean_mafft.sh obtenemos los alineamientos con los nombres correctos.
  
- 6. Finalmente, se ejecuta amas_summary.sh para obtener el resumen estadístico de los alineamientos de los genes ortólogos. En caso de detectar regiones iniciales o finales no alineadas, se puede emplear trimal.sh para recortarlas.
+ 6. Finalmente, se ejecuta amas_summary.sh para obtener el resumen estadístico de los alineamientos de los genes ortólogos. En caso de detectar regiones iniciales o finales no alineadas se puede emplear trimal.sh para recortarlas.
 
 También se utilizaron otras herramientas como el acceso a la [base de datos card](https://card.mcmaster.ca/home) y el [scrapping de datos](https://github.com/IvanPenyaHuguet/scrapping-card-resistance-database). 
