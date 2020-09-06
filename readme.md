@@ -34,6 +34,6 @@ Se parte de los resultados fastq de la secuenciacion en samples/reads.
     
  5.- Ejecutando clean_mafft.sh obtenemos los alineamientos con los nombres correctos.
  
- 6. Finalmente, se ejecuta amas_summary.sh para obtener el resumen estadístico de los alineamientos de los genes ortólogos. En caso de detectar regiones iniciales o finales no alineadas se puede emplear trimal.sh para recortarlas.
+6.- Finalmente, se ejecuta amas_summary.sh para obtener el resumen estadístico de los alineamientos de los genes ortólogos. En caso de detectar regiones iniciales o finales no alineadas se puede emplear trimal.sh para recortarlas.
 
-También se utilizaron otras herramientas como el acceso a la [base de datos card](https://card.mcmaster.ca/home) y el [scrapping de datos](https://github.com/IvanPenyaHuguet/scrapping-card-resistance-database). 
+También se utilizaron otras herramientas como la [base de datos card](https://card.mcmaster.ca/home) y el [scrapping de datos](https://github.com/IvanPenyaHuguet/scrapping-card-resistance-database). 
